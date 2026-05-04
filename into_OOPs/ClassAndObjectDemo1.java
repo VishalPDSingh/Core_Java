@@ -18,6 +18,7 @@ class Student {
 public class ClassAndObjectDemo1 {
 	public static void main(String[] args) {
 		// Object Created
+		// Object creation is also called instentied 
 		Student st1 = new Student();
 		st1.studying();
 		st1.playing();
