@@ -1,7 +1,5 @@
 package into_OOPs;
 
-import java.util.concurrent.ForkJoinPool;
-
 /*
  * Instance Variable: It is declared inside the class
 Memory is allocated inside the heap Area with object
@@ -31,12 +29,10 @@ public class ClassAndObjectDemo2 {
 
 		Calc c1 = new Calc();
 		c1.add();
-		
-		for(int i=0; i<4; i++)
-		{
+
+		for (int i = 0; i < 4; i++) {
 			System.out.println(i);
 		}
-		
-		
+
 	}
 }
